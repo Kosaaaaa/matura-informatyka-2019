@@ -1,0 +1,11 @@
+4.1:
+18 
+4.2: 
+2
+145
+1
+40585
+4.3: 
+Pierwsza liczba: 31968 
+Długość ciągu: 150 
+Dzielnik: 74 
