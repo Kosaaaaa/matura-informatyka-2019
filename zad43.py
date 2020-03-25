@@ -1,4 +1,3 @@
-import codecs
 def GCD(a,b):
     while a%b != 0:
         r = a%b
@@ -31,7 +30,7 @@ for j in range(N-1):
                 firstNumMax = firstNum
             break
 print(firstNumMax, lengthMax, dividerMax)
-with codecs.open('wyniki4.txt', 'a', 'utf-8') as fileOutput:
+with open('wyniki4.txt', 'a', encoding='utf-8') as fileOutput:
     fileOutput.write('4.3: \n')
     fileOutput.write(f'Pierwsza liczba: {firstNumMax} \n')
     fileOutput.write(f'Długość ciągu: {lengthMax} \n')
